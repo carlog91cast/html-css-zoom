@@ -29,6 +29,10 @@ header button {
     cursor: pointer;
 }
 
+/* main */
+
+
+
 /* footer */
 
 
@@ -38,7 +42,8 @@ footer {
     display: flex;
     justify-content: space-between;
 }
-.footer-left{
+
+.footer-left {
     flex-shrink: 0;
     display: flex;
     align-items: center;
@@ -46,12 +51,12 @@ footer {
 
 }
 
-.footer-center{
+.footer-center {
     flex-shrink: 0;
     display: flex;
 }
 
-footer .icon{
+footer .icon {
     color: white;
     height: 100%;
     display: flex;
@@ -67,7 +72,7 @@ footer .icon .green {
     color: lawngreen;
 }
 
-.footer-right button{
+.footer-right button {
     background-color: #4a4a4a;
     color: red;
     height: 100%;
